@@ -7,7 +7,7 @@ a = random.randrange(3685)
 
 print(a)
 
-imiona = ["Marcin", "Lukasz", "Anna", "Kasia", "Piotr", "Stefan", "Maria", "Olek", "Marian", "Joanna"]
+imiona = ["Marcin", "Lukasz", "Anna", "Arek", "Piotr", "Stefan", "Maria", "Olek", "Marian", "Joanna"]
 
 print(random.choice(imiona))
 
