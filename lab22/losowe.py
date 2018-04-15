@@ -13,3 +13,6 @@ print(random.choice(imiona))
 
 random.shuffle(imiona)
 print(imiona)
+
+print(random.sample(imiona, 3))
+
