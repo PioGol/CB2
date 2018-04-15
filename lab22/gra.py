@@ -5,12 +5,14 @@ lista = ['kamien', 'papier', 'nozyce']
 
 random.seed(time.time())
 
+
 a = random.choice(lista)
 print(a)
 b = input("podaj kamien/papier/nozyce")
 
 if b != 'kamien' and b != 'papier' and b != 'nozyce':
     print("blad, podaj kamien papier lub nozyce")
+
 
 if a == b:
     print("remis")
@@ -32,7 +34,6 @@ if b == 'nozyce':
         print('wygrales')
     elif a == 'kamien':
         print('przegrales')
-
 
 
 
