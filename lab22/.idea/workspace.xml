@@ -29,11 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="losowe.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="losowe.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/losowe.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gra.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gra.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -56,6 +68,7 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/operacje.py" />
         <option value="$PROJECT_DIR$/losowe.py" />
+        <option value="$PROJECT_DIR$/gra.py" />
       </list>
     </option>
   </component>
@@ -105,7 +118,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.losowe">
+  <component name="RunManager" selected="Python.gra">
+    <configuration name="gra" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lab22" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gra.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="losowe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab22" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,9 +195,11 @@
       <item itemvalue="Python.main" />
       <item itemvalue="Python.operacje" />
       <item itemvalue="Python.losowe" />
+      <item itemvalue="Python.gra" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gra" />
         <item itemvalue="Python.losowe" />
         <item itemvalue="Python.operacje" />
         <item itemvalue="Python.main" />
@@ -188,7 +221,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -245,6 +277,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
