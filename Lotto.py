@@ -1,19 +1,26 @@
-import random
-import time
 import lottofunkcje
 
-#Powitanie uzytkownika
-print("Witaj w LOTTO")
 
-liczbyPodane = input("Podaj 6 liczb w zakresie od 1 do 49, liczby oddziel spacjami")
+def losowanieLotto():
+    #Powitanie uzytkownika
+    print("Witaj w LOTTO")
+
+    losowe = lottofunkcje.losowanieLiczb()
+    print(losowe)
+
+    liczbyPodane = input("Podaj 6 liczb w zakresie od 1 do 49, liczby oddziel spacjami")
+
+    liczby = lottofunkcje.konwersjaLiczb(liczbyPodane)
+
+    lottofunkcje.weryfikacjaDuplikatow(liczby)
+    lottofunkcje.weryfikacjaDlugsciListy(liczby)
+    lottofunkcje.weryfikacjaZakresu(liczby)
 
 
-print("liczby ktore podales to:")
-liczby = lottofunkcje.konwersjaLiczb(liczbyPodane)
+    wynik = lottofunkcje.wynikiLosowania(liczby, losowe)
 
-print(liczby)
+    print("Ilość trafionych liczb:", wynik, "Próbuj dalej")
 
-liczbyzweryfikowane = lottofunkcje.weryfikacjaDuplikatow(liczby)
-
-print(liczbyzweryfikowane)
+losowanieLotto()
+lottofunkcje.restart()
 
