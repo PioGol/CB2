@@ -59,14 +59,6 @@ def wynikiLosowania(liczby, losowe):
     else:
         return wynik
 
-def restart():
-    import Lotto
-    retry = int(input("Wcisnij 1 by zagrac ponownie, Enter by zakonczyc"))
-
-    if retry is 1:
-        Lotto.losowanieLotto()
-    else:
-        quit()
 
 
 
