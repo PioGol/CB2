@@ -52,8 +52,10 @@ def wynikiLosowania(liczby, losowe):
 
     if wynik is 0:
         print("Niestety tym razem nie trafiłeś, spróbuj ponownie")
+        return 0
     elif wynik is 6:
         print("gratulacje zostałeś milonerem!")
+        return wynik
     else:
         return wynik
 

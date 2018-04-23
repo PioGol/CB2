@@ -1,12 +1,13 @@
 import lottofunkcje
 
 
+
 def losowanieLotto():
     #Powitanie uzytkownika
     print("Witaj w LOTTO")
 
     losowe = lottofunkcje.losowanieLiczb()
-    print(losowe)
+    #print(losowe)
 
     liczbyPodane = input("Podaj 6 liczb w zakresie od 1 do 49, liczby oddziel spacjami")
 
@@ -19,8 +20,15 @@ def losowanieLotto():
 
     wynik = lottofunkcje.wynikiLosowania(liczby, losowe)
 
-    print("Ilość trafionych liczb:", wynik, "Próbuj dalej")
+    if wynik == 6 or wynik == 0:
+        return
+    else:
+        print("Ilość trafionych liczb:", wynik, "Próbuj dalej")
 
-losowanieLotto()
-lottofunkcje.restart()
+gram = True
 
+while (gram == True):
+
+    losowanieLotto()
+
+gram = False
